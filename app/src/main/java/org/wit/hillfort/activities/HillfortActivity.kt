@@ -1,10 +1,7 @@
 package org.wit.hillfort.activities
 
-import android.content.Context
+
 import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu

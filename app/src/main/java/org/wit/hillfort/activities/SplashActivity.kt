@@ -6,7 +6,6 @@ import android.os.Handler
 import android.view.Window
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_splash.*
 import org.wit.hillfort.R
 
 class SplashActivity : AppCompatActivity() {
@@ -19,7 +18,8 @@ class SplashActivity : AppCompatActivity() {
         // Using a handler to delay loading the MainActivity
         Handler().postDelayed({
             // Start activity
-            startActivity(Intent(this, HillfortListActivity::class.java))
+            //startActivity(Intent(this, HillfortListActivity::class.java))
+            startActivity(Intent(this, WelcomeActivity::class.java))
             // Animate the loading of new activity
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             // Close this activity
